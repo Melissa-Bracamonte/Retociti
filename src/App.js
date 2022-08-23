@@ -2,7 +2,7 @@ import {
   BrowserRouter, Routes, Route,
 } from "react-router-dom";
 import Home from './pag/Home';
-import Movimientos from "./pag/Movimientos";
+import Transactions from "./pag/Transactions";
  
 function App() {
   
@@ -12,7 +12,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home/>}>
       </Route>
-      <Route path="/movimientos" element={<Movimientos/>}>
+      <Route path="/movimientos" element={<Transactions/>}>
       </Route>
       
       </Routes>
